@@ -8,16 +8,10 @@ namespace PotterKataTests
 	public class ThePotterPricer
 	{
 		[TestMethod]
-		public void Exists()
+		public void NoBookCostsNothing()
 		{
-			var pricer = new PotterPricer();
-		}
-
-		[TestMethod]
-		public void BookPrices()
-		{
-			var pricer = new PotterPricer();
-			
+			PotterBookOrder order = new PotterBookOrder();
+			order.GetTotal();
 		}
 
 	}

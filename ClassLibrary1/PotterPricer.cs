@@ -8,10 +8,7 @@ namespace PotterKata
 {
 	public class PotterPricer
 	{
-		public class BookPriceList
-		{
-
-		}
+		
 
 		public class BasketCalculator
 		{
