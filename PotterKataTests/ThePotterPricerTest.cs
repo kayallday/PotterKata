@@ -7,6 +7,7 @@ namespace PotterKataTests
 	[TestClass]
 	public class ThePotterPricerTest
 	{
+		[TestMethod]
 		public void noBookCostsNothing()
 		{
 			PotterPricer basket = new PotterPricer();
