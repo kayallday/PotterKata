@@ -5,11 +5,12 @@ using PotterKata;
 namespace PotterKataTests
 {
 	[TestClass]
-	public class Book
+	public class ThePotterPricerTest
 	{
-		public void Exists()
+		public void noBookCostsNothing()
 		{
-
+			PotterPricer basket = new PotterPricer();
+			basket.getTotal();
 		}
 	}
 }

@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PotterKata
+namespace ClassLibrary1
 {
-	public class PotterPricer
+	class DiscountInfo
 	{
-		public void getTotal()
-		{
-			throw new NotImplementedException();
-		}
+	
 	}
 }
