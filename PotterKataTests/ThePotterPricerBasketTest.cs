@@ -1,7 +1,9 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PotterKata;
+﻿using PotterKata;
 using NUnit.Framework;
+using PotterBooks;
+using System;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Collections.Generic;
 
 namespace PotterKataTests
 {
@@ -9,24 +11,25 @@ namespace PotterKataTests
 	public class ThePotterPricerTest
 	{
 		private PotterPricerBasket basket;
+
 		[SetUp]
-		public void setUp()
-		{ 
+		public void SetUp()
+		{
 			basket = new PotterPricerBasket();
 		}
 
 		[Test]
-		public void noBookCostsNothing()
+		public void NoBookCostsNothing()
 		{
-			int ActualPrice = basket.getTotal();
+			int ActualPrice = basket.GetTotal();
 			NUnit.Framework.Assert.AreEqual(ActualPrice, (0));
 		}
-
-
 		[Test]
-		public void oneBookCosts8Euros()
+		public void OneBookCosts8Dollars()
 		{
-			basket.addBook();
+			basket.AddBook(HarryPotterBook.FIRST);
+			int ActualPrice = basket.GetTotal();
+			NUnit.Framework.Assert.AreEqual(ActualPrice, (8));
 		}
 	}
 }
