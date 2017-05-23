@@ -11,7 +11,7 @@ namespace PotterKataTests
 		public void noBookCostsNothing()
 		{
 			PotterPricer basket = new PotterPricer();
-			basket.getTotal();
+			int ActualPrice = basket.getTotal();
 		}
 	}
 }
