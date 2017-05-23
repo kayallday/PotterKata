@@ -21,15 +21,21 @@ namespace PotterKataTests
 		[Test]
 		public void NoBookCostsNothing()
 		{
-			int ActualPrice = basket.GetTotal();
-			NUnit.Framework.Assert.AreEqual(ActualPrice, (0));
+			Equals(0);
 		}
+
 		[Test]
 		public void OneBookCosts8Dollars()
 		{
 			basket.AddBook(HarryPotterBook.FIRST);
+			Equals(8);
+		}
+
+		[TestCase]
+		public void AssertTotalPrice()
+		{
 			int ActualPrice = basket.GetTotal();
-			NUnit.Framework.Assert.AreEqual(ActualPrice, (8));
+			Equals(ActualPrice, ("value"));
 		}
 	}
 }

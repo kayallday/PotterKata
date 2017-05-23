@@ -17,7 +17,7 @@ namespace PotterKata
 
 		public void AddBook(HarryPotterBook book)
 		{
-
+			//this.book = book;
 		}
 	}
 }
