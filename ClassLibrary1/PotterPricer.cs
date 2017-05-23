@@ -8,9 +8,9 @@ namespace PotterKata
 {
 	public class PotterPricer
 	{
-		public void getTotal()
+		public int getTotal()
 		{
-			
+			return 0;
 		}
 	}
 }
