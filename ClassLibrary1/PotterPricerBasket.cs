@@ -10,14 +10,16 @@ namespace PotterKata
 {
 	public class PotterPricerBasket
 	{
+		private HarryPotterBook book;
+
 		public int GetTotal()
 		{
-			return 0;
+			return book == null ? 0: 8;
 		}
 
 		public void AddBook(HarryPotterBook book)
 		{
-			//this.book = book;
+			this.book = book;
 		}
 	}
 }
