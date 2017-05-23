@@ -10,7 +10,7 @@ namespace PotterKata
 	{
 		public void getTotal()
 		{
-			throw new NotImplementedException();
+			
 		}
 	}
 }
