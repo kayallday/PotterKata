@@ -51,7 +51,6 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PotterBookOrder.cs" />
     <Compile Include="ThePotterPricer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

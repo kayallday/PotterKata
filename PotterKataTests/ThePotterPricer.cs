@@ -5,14 +5,11 @@ using PotterKata;
 namespace PotterKataTests
 {
 	[TestClass]
-	public class ThePotterPricer
+	public class Book
 	{
-		[TestMethod]
-		public void NoBookCostsNothing()
+		public void Exists()
 		{
-			PotterBookOrder order = new PotterBookOrder();
-			order.GetTotal();
-		}
 
+		}
 	}
 }
