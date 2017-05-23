@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace PotterKata
 {
-	public class PotterPricer
+	public class PotterPricerBasket
 	{
 		public int getTotal()
 		{
 			return 0;
+		}
+
+		public void addBook()
+		{
+			throw new NotImplementedException();
 		}
 	}
 }
