@@ -12,6 +12,7 @@ namespace PotterKataTests
 		{
 			PotterPricer basket = new PotterPricer();
 			int ActualPrice = basket.getTotal();
+			Assert.AreEqual(ActualPrice, (0));
 		}
 	}
 }
