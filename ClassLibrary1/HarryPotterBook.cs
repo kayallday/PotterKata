@@ -8,6 +8,12 @@ namespace PotterBooks
 {
 	public enum HarryPotterBook
 	{
-		FIRST //8 
+		FIRST,
+		SECOND,
+		THIRD,
+		FOURTH,
+		FIFTH,
+		SIXTH,
+		SEVENTH
 	}
 }
