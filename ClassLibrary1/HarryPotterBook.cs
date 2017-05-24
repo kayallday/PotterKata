@@ -1,19 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PotterBooks
+﻿namespace PotterBooks
 {
-	public enum HarryPotterBook
+
+	public class HarryPotterBook
 	{
-		FIRST,
-		SECOND,
-		THIRD,
-		FOURTH,
-		FIFTH,
-		SIXTH,
-		SEVENTH
+		
+		private string _title;
+
+		public string Title {
+			get
+			{
+				return _title;
+			}
+		}
+		public HarryPotterBook(string title)
+		{
+			_title = title;  
+		}
 	}
 }

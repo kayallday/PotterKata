@@ -41,8 +41,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HarryPotterBook.cs" />
-    <Compile Include="PotterPricerBasket.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="PotterBookCart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PotterKata.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
